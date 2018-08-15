@@ -4,7 +4,8 @@ constructor to initialize the values (non-parameterised and parameterised).Creat
 to getdata( ) to get the student details from the user, display() to display the results,
 total_marks( )to display total marks scored by a student, max_marks ( ) and min_marks ( ) to
 display the maximum and minimum marks secured by the student. Create another function
-to display the marks secured by student in increasing order.
+to display the marks secured by student in increasing order.
+
 */
 
 #include<iostream>
@@ -90,9 +91,9 @@ class student
 		}
 		void inc_marks()
 		{
-			for (int i = 0; i <= 5; i++)
+			for (int i = 0; i < 5; i++)
 			{
-				for (int j = 0; j <= 5 - i; j++)
+				for (int j = 0; j < 5 - i; j++)
 				{
 					if (_marks[j] > _marks[j + 1])
 					{
